@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
@@ -17,4 +17,19 @@ code {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+html, body {
+  background: url('assets/photos/background-rain.gif') no-repeat center center fixed;
+  opacity: 85%;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  padding-top: 40%;
+  font-size: 4em;
+  opacity: 85%;
 }
